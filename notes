@@ -1,0 +1,17 @@
+ # Recreated Planets Website
+Created Separate sections for each Planet.
+adjusted styling for everysection according to planet.
+added javascript to navbar.
+connected buttons to the tabs as sections with js.
+made page responsive for mobile.
+
+
+# Started a new project for e commerce website
+created following sections
+navbar
+created hero section 
+created featured product section 
+created feature product cards
+added swiper in featured products 
+added color variables in root 
+defined font sizes for texts in css

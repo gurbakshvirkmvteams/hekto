@@ -139,9 +139,9 @@ select {
     /* object-fit: cover; */
     max-width: 1920px;
     margin: 0 auto;
-     background-size: cover;       
-  background-position: center;  
-  background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -162,7 +162,7 @@ select {
     font-size: 53px;
     line-height: 132%;
     letter-spacing: 1.5%;
-    padding: 12px 0 ;
+    padding: 12px 0;
 }
 
 .hero-paragraph {
@@ -181,22 +181,84 @@ select {
     font-family: var(--secondary-font);
     font-weight: 600;
     font-size: 16px;
-    line-height: 100%;  
+    line-height: 100%;
     letter-spacing: 2%;
     height: 50px;
     padding: 0px 24px;
     border-radius: 2px;
 }
-.card-description{
+
+.section-heading h2{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1A0B5B;
+    text-align: center;
+}
+.featured-section{
+    padding: 128px 0 70px;
+}
+.card-description {
     flex-direction: column;
     gap: 12px;
     padding: 16px;
 }
-.card{
-    border: 2px solid black;
+
+.card {
+    /* border: 2px solid black; */
     max-width: 270px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--card-box-shadow);
 }
-.card-img{
+
+.card-img {
     height: 236px;
     justify-content: center;
+    background-color: #F6F7FB;
+}
+
+.card-heading {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--pink-color);
+}
+
+.card-sub-heading {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #151875;
+}
+.swiper-wrapper{
+    padding: 48px 0 60px;
+}
+
+.swiper-pagination-bullet {
+    background: var(--pink-color)!important;
+    border-radius: 10px!important;
+    width: 24px!important;
+    height: 4px;
+}
+/* latest product section   */
+.latest-btn-wrapper{
+    max-width: 527px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.latest-btn-wrapper button{
+    font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+/* color: var(--pink-color); */
+color: #151875;
 }

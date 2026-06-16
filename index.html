@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hekto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- fonts src  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
+    <!-- swiper cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
@@ -72,28 +77,135 @@
         <section class="hero-section">
             <div class="main-container">
                 <div class="hero-text-section">
-                <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
-                <div class="hero-heading">New Furniture Collection
-                    Trends in 2020</div>
-                <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
-                    in phasellus non in justo.</div>
+                    <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
+                    <div class="hero-heading">New Furniture Collection
+                        Trends in 2020</div>
+                    <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
+                        adipiscing
+                        in phasellus non in justo.</div>
                     <button class="shop-now">Shop Now</button>
-            </div>
+                </div>
             </div>
         </section>
         <section class="featured-section main-container">
-            <div class="section-heading">Featured Products</div>
-            <div class="card">
-                <div class="card-img flex align-center"><img src="assets/image 1169.png" alt=""/></div>
-                <div class="card-description flex align-center">
-                    <h4 class="card-heading flex align-center">Cantilever chair</h4>
-                    <div class="flex align-center"><span></span><span></span><span></span></div>
-                    <div class="flex align-center">Code - Y523201</div>
-                    <div class="flex align-center">$42.00</div>
+            <div class="section-heading"><h2>Featured Products</h2></div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="card swiper-slide">
+                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-description flex align-center">
+                            <h4 class="card-heading flex align-center">Cantilever chair</h4>
+                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="card-sub-heading flex align-center">Code - Y523201</div>
+                            <div class="card-sub-heading flex align-center">$42.00</div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-description flex align-center">
+                            <h4 class="card-heading flex align-center">Cantilever chair</h4>
+                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="card-sub-heading flex align-center">Code - Y523201</div>
+                            <div class="card-sub-heading flex align-center">$42.00</div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-description flex align-center">
+                            <h4 class="card-heading flex align-center">Cantilever chair</h4>
+                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="card-sub-heading flex align-center">Code - Y523201</div>
+                            <div class="card-sub-heading flex align-center">$42.00</div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-description flex align-center">
+                            <h4 class="card-heading flex align-center">Cantilever chair</h4>
+                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="card-sub-heading flex align-center">Code - Y523201</div>
+                            <div class="card-sub-heading flex align-center">$42.00</div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-description flex align-center">
+                            <h4 class="card-heading flex align-center">Cantilever chair</h4>
+                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="card-sub-heading flex align-center">Code - Y523201</div>
+                            <div class="card-sub-heading flex align-center">$42.00</div>
+                        </div>
+                    </div>
+
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>  
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+
+        </section>
+        <section class="main-container">
+            <div class="section-heading"><h2>Leatest Products</h2></div>
+            <div class="latest-btn-wrapper flex">
+                <button>New Arrival</button>
+                <button>Best Seller</button>
+                <button>Featured</button>
+                <button>Special Offer</button>
             </div>
         </section>
     </main>
     <script src="script.js"></script>
+    <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs'
+    const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+
+        // 1. Default settings (Mobile-first fallback)
+        slidesPerView: 1,       // Shows 1 slide on small screens
+        spaceBetween: 20,       // Adds 20px gap between slides
+
+        // 2. Responsive breakpoints
+        breakpoints: {
+            // When window width is >= 576px (Tablets)
+            576: {
+                slidesPerView: 3,
+                spaceBetween: 25, // Slightly larger gap
+            },
+            // When window width is >= 992px (Desktops)
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 30, // 30px gap for desktop
+            },
+            // When window width is >= 1200px (Large screens)
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            }
+        },
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+</script>
 </body>
+
 </html>
