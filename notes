@@ -1,4 +1,4 @@
- # Recreated Planets Website
+# Recreated Planets Website
 Created Separate sections for each Planet.
 adjusted styling for everysection according to planet.
 added javascript to navbar.
@@ -9,16 +9,15 @@ made page responsive for mobile.
 # Started a new project for e commerce website
 created following sections
 navbar
-created hero section 
-created featured product section 
+created hero section
+created featured product section
 created feature product cards
-added swiper in featured products 
-added color variables in root 
+added swiper in featured products
+added color variables in root
 defined font sizes for texts in css
 
 
 
-<svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_429_11066)"> <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#7E33E0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_429_11066"> <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect> </clipPath> </defs> </g></svg>
 
 # Hekto Project for e commerce website
 
@@ -29,11 +28,11 @@ Created following sections
 3.Unique feature section
 4.Trending products section
 5.Trending products discount section
-6.Discount items section 
+6.Discount items section
 7.Top categories section with cards
 8.Added slider to top categories section
 9.Newsletter section
-10.Sponsors section 
+10.Sponsors section
 11.Latest blogs section
 12.Footer
 
@@ -42,9 +41,35 @@ Latest products section
 What we offer section
 Trending products
 Trending products discount section
-Discount items section 
+Discount items section
 Top categories section
 Newsletter section
-Sponsors section 
+Sponsors section
+Latest blogs section
+Footer
+
+
+#Hekto Project for e commerce website
+added following features to page
+Slider in hero section
+mobile sidebar
+product tabs with js
+made images responsive
+hover effects
+hover card overlays
+adjusted slider bullets according to design
+adjusted whole page images accoding to design
+added smooth scroll with navbar navigation to page components
+* created layout for login form
+
+Made following sections responsive for mobile
+Latest products section
+What we offer section
+Trending products
+Trending products discount section
+Discount items section
+Top categories section
+Newsletter section
+Sponsors section
 Latest blogs section
 Footer

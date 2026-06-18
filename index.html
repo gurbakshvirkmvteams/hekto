@@ -14,9 +14,7 @@
         rel="stylesheet" />
     <!-- swiper cdn  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-
 </head>
 
 <body>
@@ -26,12 +24,12 @@
                 <div class="navbar-info flex main-container align-center">
                     <div class="navbar-top-right flex  align-center ">
                         <div class="flex">
-                            <h4 class="sub-headings flex align-center"><span class="nav-icon flex align-center"><img src="assets/message.svg"
-                                        alt="message" /></span>mhhasanul@gmail.com</h4>
+                            <h4 class="sub-headings flex align-center"><span class="nav-icon flex align-center"><img
+                                        src="assets/message.svg" alt="message" /></span>mhhasanul@gmail.com</h4>
                         </div>
                         <div>
-                            <h4 class="sub-headings flex align-center"><span class="nav-icon flex align-center"><img src="assets/bx_bx-phone-call.svg"
-                                        alt="Phone" /></span>(12345)67890</h4>
+                            <h4 class="sub-headings flex align-center"><span class="nav-icon flex align-center"><img
+                                        src="assets/bx_bx-phone-call.svg" alt="Phone" /></span>(12345)67890</h4>
                         </div>
                     </div>
                     <div class="navbar-top-left flex  align-center">
@@ -46,10 +44,12 @@
                             <option value="">Chineese</option>
                         </select>
                         <h4 class="sub-headings">Login</h4>
-                        <h4 class="sub-headings flex align-center">Wishlist <span class="nav-icon flex align-center wishlist"><img src="assets/uil_heart-alt.svg"
+                        <h4 class="sub-headings flex align-center">Wishlist <span
+                                class="nav-icon flex align-center wishlist"><img src="assets/uil_heart-alt.svg"
                                     alt="heart" /></span>
                         </h4>
-                        <span class="nav-icon flex align-center"><img src="assets/fluent_cart-24-regular.svg" alt="cart" /></span>
+                        <span class="nav-icon flex align-center"><img src="assets/fluent_cart-24-regular.svg"
+                                alt="cart" /></span>
                     </div>
                 </div>
             </div>
@@ -57,41 +57,149 @@
                 <div class="navbar-right-section flex">
                     <div class="logo">Hekto</div>
                     <ul class=" nav-items-list flex align-center">
-                        <li><a href="">Home<span><img src="assets/arrowndownpink.svg" alt="arrow-icon" /></span></a>
+                        <li><a href="index.html">Home<span><img src="assets/arrowndownpink.svg"
+                                        alt="arrow-icon" /></span></a>
                         </li>
-                        <li><a href="">Pages<span></span></a></li>
-                        <li><a href="">Products<span></span></a></li>
-                        <li><a href="">Blog<span></span></a></li>
-                        <li><a href="">Shop<span></span></a></li>
-                        <li><a href="">Contact<span></span></a></li>
+                        <li><a href="index.html#trending">Trending<span></span></a></li>
+                        <li><a href="index.html#latest-products">Products<span></span></a></li>
+                        <li><a href="index.html#blog">Blog<span></span></a></li>
+                        <li><a href="index.html#categories">Shop<span></span></a></li>
+                        <li><a href="index.html#footer">Contact<span></span></a></li>
                     </ul>
                 </div>
                 <div class="navbar-left-section flex">
                     <input type="text">
                     <span class="search-icon"><img src="assets/search-icon.svg" alt="search-icon" /></span>
+
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <svg width="24px" height="24px" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g clip-path="url(#clip0_429_11066)">
+                                <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#7E33E0" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_429_11066">
+                                    <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)">
+                                    </rect>
+                                </clipPath>
+                            </defs>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="nav-sidebar flex" id="navSidebar">
+                <ul class="flex">
+                    <li class="sidebar-btn"><a href="index.html">Home<span></a></li>
+                    <li class="sidebar-btn"><a href="index.html#trending">Trending<span></span></a></li>
+                    <li class="sidebar-btn"><a href="index.html#latest-products">Products<span></span></a></li>
+                    <li class="sidebar-btn"><a href="index.html#blog">Blog<span></span></a></li>
+                    <li class="sidebar-btn"><a href="index.html#categories">Shop<span></span></a></li>
+                    <li class="sidebar-btn"><a href="index.html#footer">Contact<span></span></a></li>
+                </ul>
+                <div class="cross-icon" id="crossIcon">
+                    <button><img src="assets/cross-svgrepo-com (1).svg" alt="cross-icon" /></button>
+                </div>
+            </div>
+            <div class="login-overlay">
+                <div class="login-container">
+                    <div class="login-top-header flex">
+                        <div class="login-top-header-right">
+                            <h1>Log In</h1>
+                            <p>Enter Your Credentials we will get you up and running</p>
+                        </div>
+                        <div class="close-login-button"><button><img src="assets/cross-svgrepo-com (1).svg"
+                                    alt="cross-icon" /></button></div>
+                    </div>
+                    <div class="credential-input-container flex">
+                        <div>
+                            <p>Enter your email address *</p>
+                            <label for="email"></label><input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <p>Enter your Password*</p>
+                            <label for="password"></label><input type="password" name="password" id="password">
+                            <button>Forgot Your Password</button>
+                        </div>
+                    </div>
+                    <div class="buttons-container">
+                        <button>Login</button>
+                    </div>
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <section class="hero-section">
-            <div class="hero-wrapper">
-                <div class="main-container">
-                    <div class="hero-text-section">
-                        <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
-                        <div class="hero-heading">New Furniture Collection
-                            Trends in 2020</div>
-                        <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
-                            est
-                            adipiscing
-                            in phasellus non in justo.</div>
-                        <button class="shop-now">Shop Now</button>
+        <section class="hero-section heroswiper">
+
+            <div class="swiper-wrapper">
+                <div class="hero-wrapper swiper-slide">
+                    <div class="main-container">
+                        <!-- slide 1 -->
+                        <div class="hero-text-section">
+                            <div class="hero-text-section-container">
+                                <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
+                                <div class="hero-heading">New Furniture Collection
+                                    Trends in 2020</div>
+                                <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Magna
+                                    in
+                                    est
+                                    adipiscing
+                                    in phasellus non in justo.</div>
+                                <button class="shop-now">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-wrapper slide2 swiper-slide">
+                    <div class="main-container">
+                        <!-- slide 1 -->
+                        <div class="hero-text-section">
+                            <div class="hero-text-section-container">
+                                <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
+                                <div class="hero-heading">New Furniture Collection
+                                    Trends in 2020</div>
+                                <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Magna
+                                    in
+                                    est
+                                    adipiscing
+                                    in phasellus non in justo.</div>
+                                <button class="shop-now">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-wrapper slide3  swiper-slide">
+                    <div class="main-container">
+                        <!-- slide 1 -->
+                        <div class="hero-text-section">
+                            <div class="hero-text-section-container">
+                                <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
+                                <div class="hero-heading">New Furniture Collection
+                                    Trends in 2020</div>
+                                <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Magna
+                                    in
+                                    est
+                                    adipiscing
+                                    in phasellus non in justo.</div>
+                                <button class="shop-now">Shop Now</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="heroswiper-pagination"></div>
         </section>
         <!-- featured-section  -->
-        <section class="featured-section main-container">
+        <section class="featured-section main-container" id="featuredSection">
             <div class="section-heading">
                 <h2>Featured Products</h2>
             </div>
@@ -100,50 +208,100 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="card swiper-slide">
-                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-img flex align-center"><img src="assets/image 1168.png" alt="" />
+                            <div class="card-img-overlay flex">
+                                <div class="card-img-overlay-top flex"><span><img src="assets/cart.svg" alt="cart" />
+                                    </span><span><img src="assets/heart.svg" alt="heart" /></span><span><img
+                                            src="assets/search.svg" alt="search" /></span>
+                                </div>
+                                <div class="card-img-overlay-bottom flex align-center"><button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card-description flex align-center">
                             <h4 class="card-heading flex align-center">Cantilever chair</h4>
-                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="flex align-center  description-markers"><span></span><span></span><span></span>
+                            </div>
                             <div class="card-sub-heading flex align-center">Code - Y523201</div>
                             <div class="card-sub-heading flex align-center">$42.00</div>
                         </div>
                     </div>
 
                     <div class="card swiper-slide">
-                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-img flex align-center"><img src="assets/image 1 (1).png" alt="" />
+                            <div class="card-img-overlay flex">
+                                <div class="card-img-overlay-top flex"><span><img src="assets/cart.svg" alt="cart" />
+                                    </span><span><img src="assets/heart.svg" alt="heart" /></span><span><img
+                                            src="assets/search.svg" alt="search" /></span>
+                                </div>
+                                <div class="card-img-overlay-bottom flex align-center"><button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card-description flex align-center">
                             <h4 class="card-heading flex align-center">Cantilever chair</h4>
-                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="flex align-center description-markers"><span></span><span></span><span></span>
+                            </div>
                             <div class="card-sub-heading flex align-center">Code - Y523201</div>
                             <div class="card-sub-heading flex align-center">$42.00</div>
                         </div>
                     </div>
 
                     <div class="card swiper-slide">
-                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" />
+                            <div class="card-img-overlay flex">
+                                <div class="card-img-overlay-top flex"><span><img src="assets/cart.svg" alt="cart" />
+                                    </span><span><img src="assets/heart.svg" alt="heart" /></span><span><img
+                                            src="assets/search.svg" alt="search" /></span>
+                                </div>
+                                <div class="card-img-overlay-bottom flex align-center"><button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card-description flex align-center">
                             <h4 class="card-heading flex align-center">Cantilever chair</h4>
-                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="flex align-center description-markers"><span></span><span></span><span></span>
+                            </div>
                             <div class="card-sub-heading flex align-center">Code - Y523201</div>
                             <div class="card-sub-heading flex align-center">$42.00</div>
                         </div>
                     </div>
 
                     <div class="card swiper-slide">
-                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-img flex align-center"><img src="assets/image 3.png" alt="" />
+                            <div class="card-img-overlay flex">
+                                <div class="card-img-overlay-top flex"><span><img src="assets/cart.svg" alt="cart" />
+                                    </span><span><img src="assets/heart.svg" alt="heart" /></span><span><img
+                                            src="assets/search.svg" alt="search" /></span>
+                                </div>
+                                <div class="card-img-overlay-bottom flex align-center"><button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card-description flex align-center">
                             <h4 class="card-heading flex align-center">Cantilever chair</h4>
-                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="flex align-center description-markers"><span></span><span></span><span></span>
+                            </div>
                             <div class="card-sub-heading flex align-center">Code - Y523201</div>
                             <div class="card-sub-heading flex align-center">$42.00</div>
                         </div>
                     </div>
 
                     <div class="card swiper-slide">
-                        <div class="card-img flex align-center"><img src="assets/image 1169.png" alt="" /></div>
+                        <div class="card-img flex align-center"><img src="assets/image 1168.png" alt="" />
+                            <div class="card-img-overlay flex">
+                                <div class="card-img-overlay-top flex"><span><img src="assets/cart.svg" alt="cart" />
+                                    </span><span><img src="assets/heart.svg" alt="heart" /></span><span><img
+                                            src="assets/search.svg" alt="search" /></span>
+                                </div>
+                                <div class="card-img-overlay-bottom flex align-center"><button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card-description flex align-center">
                             <h4 class="card-heading flex align-center">Cantilever chair</h4>
-                            <div class="flex align-center"><span></span><span></span><span></span></div>
+                            <div class="flex align-center description-markers"><span></span><span></span><span></span>
+                            </div>
                             <div class="card-sub-heading flex align-center">Code - Y523201</div>
                             <div class="card-sub-heading flex align-center">$42.00</div>
                         </div>
@@ -159,19 +317,47 @@
 
         </section>
         <!-- Leatest Products  -->
-        <section class="main-container">
+        <section class="main-container" id="latest-products">
             <div class="section-heading">
                 <h2>Leatest Products</h2>
             </div>
             <div class="latest-btn-wrapper flex">
-                <button class="latest-btn-active">New Arrival</button>
-                <button>Best Seller</button>
-                <button>Featured</button>
-                <button>Special Offer</button>
+                <button class="latest-btn active featured-btn" data-tab-btn data-tab="new-arrivals">New Arrival</button>
+                <button class="featured-btn" data-tab-btn data-tab="best-seller">Best Seller</button>
+                <button class="featured-btn" data-tab-btn data-tab="featured">Featured</button>
+                <button class="featured-btn" data-tab-btn data-tab="special-offer">Special Offer</button>
             </div>
-            <div class="latest-products-container">
+
+            <div class="latest-products-container featured-tab active" data-tab-content data-tab="new-arrivals">
                 <div class="latest-product-card">
-                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    <div class="latest-product-card-image flex"><img src="assets/image 1166.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 15.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="latest-product-detail-wrapper flex">
                         <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
@@ -183,6 +369,14 @@
 
                 <div class="latest-product-card">
                     <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="latest-product-detail-wrapper flex">
                         <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
@@ -193,7 +387,15 @@
                 </div>
 
                 <div class="latest-product-card">
-                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    <div class="latest-product-card-image flex"><img src="assets/image 23.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="latest-product-detail-wrapper flex">
                         <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
@@ -204,7 +406,15 @@
                 </div>
 
                 <div class="latest-product-card">
-                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    <div class="latest-product-card-image flex"><img src="assets/image 32.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="latest-product-detail-wrapper flex">
                         <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
@@ -215,18 +425,15 @@
                 </div>
 
                 <div class="latest-product-card">
-                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
-                    </div>
-                    <div class="latest-product-detail-wrapper flex">
-                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
-                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
-                                class="latest-product-original-price">$65.00</span>
+                    <div class="latest-product-card-image flex"><img src="assets/image 3.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="latest-product-card">
-                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
                     </div>
                     <div class="latest-product-detail-wrapper flex">
                         <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
@@ -236,9 +443,208 @@
                     </div>
                 </div>
             </div>
+
+            <div class="latest-products-container featured-tab" data-tab-content data-tab="best-seller">
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1166.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 15.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest-products-container featured-tab " data-tab-content data-tab="featured">
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 23.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 32.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 3.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest-products-container featured-tab" data-tab-content data-tab="special-offer">
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1166.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 32.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 3.png" alt="Product Image" />
+                        <div class="latest-product-card-overlay flex">
+                            <span><img src="assets/salebanner.svg" alt="salebanner" /></span>
+                            <div class="latest-product-card-overlay-bottom flex">
+                                <span><img src="assets/latest-cart.svg" alt="cart" /></span>
+                                <span><img src="assets/latestheart.svg" alt="heart" /></span>
+                                <span><img src="assets/latestsearch.svg" alt="search" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!-- what-we-offer-section  -->
-        <section class="main-container">
+        <section class="main-container" id="offer">
             <div class="section-heading">
                 <h2>What Shopex Offer!</h2>
             </div>
@@ -250,19 +656,19 @@
                         elit. Massa purus gravida.</p>
                 </div>
                 <div class="offer-card flex align-center">
-                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div><img src="assets/cashback 1.svg" alt="" /></div>
                     <div class="support sub-headings">24/7 Support</div>
                     <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Massa purus gravida.</p>
                 </div>
                 <div class="offer-card flex align-center">
-                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div><img src="assets/premium-quality 1.png" alt="" /></div>
                     <div class="support sub-headings">24/7 Support</div>
                     <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Massa purus gravida.</p>
                 </div>
                 <div class="offer-card flex align-center">
-                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div><img src="assets/24-hours-support 1.svg" alt="" /></div>
                     <div class="support sub-headings">24/7 Support</div>
                     <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Massa purus gravida.</p>
@@ -270,7 +676,7 @@
             </div>
         </section>
         <!-- unique-features-of-product-section  -->
-        <section class="unique-features-section">
+        <section class="unique-features-section" id="unique">
             <div class="unique-features-wrapper flex main-container">
                 <div class="unique-feature-image"><img src="assets/unique-product.png" alt="" /></div>
                 <div class="unique-features-description flex">
@@ -298,7 +704,7 @@
             </div>
         </section>
         <!-- Trending-product-section  -->
-        <section class="main-container">
+        <section class="main-container" id="trending">
             <div class="trending-product-wrapper">
                 <div class="section-heading">
                     <h2>Trending Products</h2>
@@ -314,7 +720,7 @@
                         </div>
                     </div>
                     <div class="trending-product-card">
-                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1170.png"
                                 alt="" /></div>
                         <div class="trending-product-card-description flex align-center">
                             <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
@@ -323,7 +729,7 @@
                         </div>
                     </div>
                     <div class="trending-product-card">
-                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 31.png"
                                 alt="" /></div>
                         <div class="trending-product-card-description flex align-center">
                             <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
@@ -332,7 +738,7 @@
                         </div>
                     </div>
                     <div class="trending-product-card">
-                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 32.png"
                                 alt="" /></div>
                         <div class="trending-product-card-description flex align-center">
                             <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
@@ -356,8 +762,8 @@
                         <div class="sub-headings trending-discount-heading">
                             <h2>23% off in all products</h2>
                             <div class="trending-discount-body flex">
-                                <div class="sub-headings trending-discount-card-shop-now">Shop Now</div>
-                                <div class="trending-discount-card-image"><img src="assets/clock.png" alt=""></div>
+                                <div class="sub-headings trending-discount-card-shop-now">View Collection</div>
+                                <div class="trending-discount-card-image"><img src="assets/image 1161.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -372,7 +778,7 @@
                             </div>
                         </div>
                         <div class="sub-card flex">
-                            <div class="sub-card-img flex align-center"><img src="assets/image 30.png"
+                            <div class="sub-card-img flex align-center"><img src="assets/image 19.png"
                                     alt="product-image" /></div>
                             <div class="sub-card-description">
                                 <div class="discount-sub-card-heading card-sub-heading">Executive Seat chair</div>
@@ -380,7 +786,7 @@
                             </div>
                         </div>
                         <div class="sub-card flex">
-                            <div class="sub-card-img flex align-center"><img src="assets/image 30.png"
+                            <div class="sub-card-img flex align-center"><img src="assets/image 28.png"
                                     alt="product-image" /></div>
                             <div class="sub-card-description">
                                 <div class="discount-sub-card-heading card-sub-heading">Executive Seat chair</div>
@@ -391,18 +797,17 @@
                 </div>
             </div>
         </section>
-
         <!-- discount-items-section -->
-        <section class="main-container">
+        <section class="main-container" id="discount">
             <div class="section-heading">
                 <h2>Discount Item</h2>
             </div>
             <div class="latest-btn-wrapper discount-item-btns flex">
-                <button class="latest-btn-active">Wood Chair</button>
-                <button>Plastic Chair</button>
-                <button>Sofa Collection</button>
+                <button class="active" data-tab-btn data-tab="wood-chair">Wood Chair</button>
+                <button data-tab-btn data-tab="plastic-chair">Plastic Chair</button>
+                <button data-tab-btn data-tab="sofa-collection">Sofa Collection</button>
             </div>
-            <div class="discount-item-wrapper">
+            <div class="discount-item-wrapper active" data-tab-content data-tab="sofa-collection">
                 <div class="discount-item-left-section flex">
                     <div class="section-heading unique-section-heading">
                         <h2>20% Discount Of All Products</h2>
@@ -428,9 +833,64 @@
                     <div class="discount-item-img"><img src="assets/Group 154.png" alt="product-image" /></div>
                 </div>
             </div>
+
+            <div class="discount-item-wrapper" data-tab-content data-tab="wood-chair">
+                <div class="discount-item-left-section flex">
+                    <div class="section-heading unique-section-heading">
+                        <h2>20% Discount Of All Products</h2>
+                    </div>
+                    <div class="discount-item-highlight">Wood Chair</div>
+                    <p class="discount-item-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
+                        feugiat habitasse nec, bibendum condimentum.
+                    </p>
+                    <div class="discount-item-para-points">
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                    </div>
+                    <button class="shop-now">Shop Now</button>
+
+                </div>
+                <div class="discount-item-right-section">
+                    <div class="discount-item-img"><img src="assets/Group 154.png" alt="product-image" /></div>
+                </div>
+            </div>
+
+            <div class="discount-item-wrapper" data-tab-content data-tab="plastic-chair">
+                <div class="discount-item-left-section flex">
+                    <div class="section-heading unique-section-heading">
+                        <h2>20% Discount Of All Products</h2>
+                    </div>
+                    <div class="discount-item-highlight">Eams Sofa Compact</div>
+                    <p class="discount-item-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
+                        feugiat habitasse nec, bibendum condimentum.
+                    </p>
+                    <div class="discount-item-para-points">
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                    </div>
+                    <button class="shop-now">Shop Now</button>
+
+                </div>
+                <div class="discount-item-right-section">
+                    <div class="discount-item-img"><img src="assets/image 1170.png" alt="product-image" /></div>
+                </div>
+            </div>
+
         </section>
         <!-- Top Categories  -->
-        <section class="main-container">
+        <section class="main-container" id="categories">
             <div class="section-heading">
                 <h2>Top Categories</h2>
             </div>
@@ -440,7 +900,11 @@
 
                 <div class="swiper-wrapper">
                     <div class="category-card flex align-center swiper-slide    ">
-                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" />
+                            <div class="category-card-overlay">
+                                <button>View Shop</button>
+                            </div>
+                        </div>
                         <div class="category-card-description flex align-center">
                             <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
                             <div class="card-sub-heading category-card-price">$56.00</div>
@@ -448,7 +912,11 @@
                     </div>
 
                     <div class="category-card flex align-center swiper-slide    ">
-                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-img"><img src="assets/image 1168.png" alt="product-image" />
+                            <div class="category-card-overlay">
+                                <button>View Shop</button>
+                            </div>
+                        </div>
                         <div class="category-card-description flex align-center">
                             <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
                             <div class="card-sub-heading category-card-price">$56.00</div>
@@ -456,7 +924,11 @@
                     </div>
 
                     <div class="category-card flex align-center swiper-slide    ">
-                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-img"><img src="assets/image 1171.png" alt="product-image" />
+                            <div class="category-card-overlay">
+                                <button>View Shop</button>
+                            </div>
+                        </div>
                         <div class="category-card-description flex align-center">
                             <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
                             <div class="card-sub-heading category-card-price">$56.00</div>
@@ -464,7 +936,11 @@
                     </div>
 
                     <div class="category-card flex align-center swiper-slide    ">
-                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" />
+                            <div class="category-card-overlay">
+                                <button>View Shop</button>
+                            </div>
+                        </div>
                         <div class="category-card-description flex align-center">
                             <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
                             <div class="card-sub-heading category-card-price">$56.00</div>
@@ -472,7 +948,11 @@
                     </div>
 
                     <div class="category-card flex align-center swiper-slide    ">
-                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" />
+                            <div class="category-card-overlay">
+                                <button>View Shop</button>
+                            </div>
+                        </div>
                         <div class="category-card-description flex align-center">
                             <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
                             <div class="card-sub-heading category-card-price">$56.00</div>
@@ -504,7 +984,7 @@
             </div>
         </section>
         <!-- Leatest Blog  -->
-        <section class="main-container">
+        <section class="main-container" id="blog">
             <div class="section-heading">
                 <h2>Leatest Blog</h2>
             </div>
@@ -526,7 +1006,7 @@
                 </div>
 
                 <div class="blog-card">
-                    <div class="blog-card-img"><img src="assets/JIUjvqe2ZHg.png" alt="image" /></div>
+                    <div class="blog-card-img"><img src="assets/2dcYhvbHV-M.png" alt="image" /></div>
                     <div class="blog-card-body">
                         <div class="flex blog-card-top">
                             <div class="card-sub-heading "><span><img src="assets/pen.svg"
@@ -542,7 +1022,7 @@
                 </div>
 
                 <div class="blog-card">
-                    <div class="blog-card-img"><img src="assets/JIUjvqe2ZHg.png" alt="image" /></div>
+                    <div class="blog-card-img"><img src="assets/Frame 3.png" alt="image" /></div>
                     <div class="blog-card-body">
                         <div class="flex blog-card-top">
                             <div class="card-sub-heading "><span><img src="assets/pen.svg"
@@ -559,7 +1039,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <div class="footer-section">
             <div class="footer-wrapper main-container flex">
                 <div class="footer-left-container">
@@ -612,9 +1092,11 @@
             <div class="footer-bottom-container flex main-container">
                 <div class="copyright">©Webecy - All Rights Reserved</div>
                 <div class="footer-icons flex">
-                    <span class="flex align-center"><img src="assets/bx_bxl-facebook.svg" alt="facebook-icon"/></span>
-                    <span class="flex align-center"><img src="assets/bx_bxl-instagram-alt.svg" alt="instagram-icon"/></span>
-                    <span class="flex align-center"><img src="assets/akar-icons_twitter-fill.svg" alt="twitter-icon"/></span>
+                    <span class="flex align-center"><img src="assets/bx_bxl-facebook.svg" alt="facebook-icon" /></span>
+                    <span class="flex align-center"><img src="assets/bx_bxl-instagram-alt.svg"
+                            alt="instagram-icon" /></span>
+                    <span class="flex align-center"><img src="assets/akar-icons_twitter-fill.svg"
+                            alt="twitter-icon" /></span>
                 </div>
             </div>
         </div>
@@ -651,6 +1133,7 @@
 
             pagination: {
                 el: '.swiper-pagination',
+                clickable: true,
             },
 
             navigation: {
@@ -660,6 +1143,7 @@
 
             scrollbar: {
                 el: '.swiper-scrollbar',
+
             },
         });
         const categoryswiper = new Swiper('.categoryswiper', {
@@ -691,12 +1175,35 @@
 
             pagination: {
                 el: '.categoryswiper-pagination',
+                clickable: true,
             },
 
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             }
+        });
+        const heroswiper = new Swiper('.heroswiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.heroswiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
         });
     </script>
 </body>
