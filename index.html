@@ -26,11 +26,11 @@
                 <div class="navbar-info flex main-container align-center">
                     <div class="navbar-top-right flex  align-center ">
                         <div class="flex">
-                            <h4 class="sub-headings"><span class="nav-icon"><img src="assets/message.svg"
+                            <h4 class="sub-headings flex align-center"><span class="nav-icon flex align-center"><img src="assets/message.svg"
                                         alt="message" /></span>mhhasanul@gmail.com</h4>
                         </div>
                         <div>
-                            <h4 class="sub-headings"><span class="nav-icon"><img src="assets/bx_bx-phone-call.svg"
+                            <h4 class="sub-headings flex align-center"><span class="nav-icon flex align-center"><img src="assets/bx_bx-phone-call.svg"
                                         alt="Phone" /></span>(12345)67890</h4>
                         </div>
                     </div>
@@ -46,10 +46,10 @@
                             <option value="">Chineese</option>
                         </select>
                         <h4 class="sub-headings">Login</h4>
-                        <h4 class="sub-headings">Wishlist <span class="nav-icon"><img src="assets/uil_heart-alt.svg"
+                        <h4 class="sub-headings flex align-center">Wishlist <span class="nav-icon flex align-center wishlist"><img src="assets/uil_heart-alt.svg"
                                     alt="heart" /></span>
                         </h4>
-                        <span class="nav-icon"><img src="assets/fluent_cart-24-regular.svg" alt="cart" /></span>
+                        <span class="nav-icon flex align-center"><img src="assets/fluent_cart-24-regular.svg" alt="cart" /></span>
                     </div>
                 </div>
             </div>
@@ -75,20 +75,26 @@
     </header>
     <main>
         <section class="hero-section">
-            <div class="main-container">
-                <div class="hero-text-section">
-                    <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
-                    <div class="hero-heading">New Furniture Collection
-                        Trends in 2020</div>
-                    <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
-                        adipiscing
-                        in phasellus non in justo.</div>
-                    <button class="shop-now">Shop Now</button>
+            <div class="hero-wrapper">
+                <div class="main-container">
+                    <div class="hero-text-section">
+                        <div class="sub-headings hero-sub-heading">Best Furniture For Your Castle....</div>
+                        <div class="hero-heading">New Furniture Collection
+                            Trends in 2020</div>
+                        <div class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
+                            est
+                            adipiscing
+                            in phasellus non in justo.</div>
+                        <button class="shop-now">Shop Now</button>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- featured-section  -->
         <section class="featured-section main-container">
-            <div class="section-heading"><h2>Featured Products</h2></div>
+            <div class="section-heading">
+                <h2>Featured Products</h2>
+            </div>
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
@@ -145,67 +151,554 @@
 
                 </div>
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>  
+                <div class="swiper-pagination"></div>
                 <!-- <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div> -->
                 <!-- <div class="swiper-scrollbar"></div> -->
             </div>
 
         </section>
+        <!-- Leatest Products  -->
         <section class="main-container">
-            <div class="section-heading"><h2>Leatest Products</h2></div>
+            <div class="section-heading">
+                <h2>Leatest Products</h2>
+            </div>
             <div class="latest-btn-wrapper flex">
-                <button>New Arrival</button>
+                <button class="latest-btn-active">New Arrival</button>
                 <button>Best Seller</button>
                 <button>Featured</button>
                 <button>Special Offer</button>
             </div>
+            <div class="latest-products-container">
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-product-card">
+                    <div class="latest-product-card-image flex"><img src="assets/image 1168.png" alt="Product Image" />
+                    </div>
+                    <div class="latest-product-detail-wrapper flex">
+                        <h4 class="latest-product-name card-sub-heading">Comfort Handy Craft</h4>
+                        <div class="latest-product-price card-sub-heading flex align-center">$42.00<span
+                                class="latest-product-original-price">$65.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- what-we-offer-section  -->
+        <section class="main-container">
+            <div class="section-heading">
+                <h2>What Shopex Offer!</h2>
+            </div>
+            <div class="offer-cards-container flex">
+                <div class="offer-card flex align-center">
+                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div class="support sub-headings">24/7 Support</div>
+                    <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Massa purus gravida.</p>
+                </div>
+                <div class="offer-card flex align-center">
+                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div class="support sub-headings">24/7 Support</div>
+                    <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Massa purus gravida.</p>
+                </div>
+                <div class="offer-card flex align-center">
+                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div class="support sub-headings">24/7 Support</div>
+                    <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Massa purus gravida.</p>
+                </div>
+                <div class="offer-card flex align-center">
+                    <div><img src="assets/truck-icon.svg" alt="" /></div>
+                    <div class="support sub-headings">24/7 Support</div>
+                    <p class="hero-paragraph offercard-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Massa purus gravida.</p>
+                </div>
+            </div>
+        </section>
+        <!-- unique-features-of-product-section  -->
+        <section class="unique-features-section">
+            <div class="unique-features-wrapper flex main-container">
+                <div class="unique-feature-image"><img src="assets/unique-product.png" alt="" /></div>
+                <div class="unique-features-description flex">
+                    <div class="unique-section-heading section-heading">
+                        <h2>Unique Features Of leatest &
+                            Trending Poducts</h2>
+                    </div>
+                    <div class="unique-feature-para-wrapper flex">
+                        <div class="unique-feature-para"><span></span>All frames constructed with hardwood solids and
+                            laminates</div>
+                        <div class="unique-feature-para"><span></span>Reinforced with double wood dowels, glue, screw -
+                            nails corner
+                            blocks and machine nails</div>
+
+                        <div class="unique-feature-para"><span></span>Arms, backs and seats are structurally reinforced
+                        </div>
+                    </div>
+                    <div class="unique-feature-button-wrapper flex"><button>Add To Cart</button>
+                        <div class="flex unique-price-wrapper">
+                            <p class="unique-feature-product-name">B&B Italian Sofa</p>
+                            <p class="card-sub-heading">$32.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Trending-product-section  -->
+        <section class="main-container">
+            <div class="trending-product-wrapper">
+                <div class="section-heading">
+                    <h2>Trending Products</h2>
+                </div>
+                <div class="trending-product-card-wrapper flex">
+                    <div class="trending-product-card">
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                                alt="" /></div>
+                        <div class="trending-product-card-description flex align-center">
+                            <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
+                            <div class="trending-product-card-pricing card-sub-heading">$26.00 <span
+                                    class="card-sub-heading">$42.00</span></div>
+                        </div>
+                    </div>
+                    <div class="trending-product-card">
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                                alt="" /></div>
+                        <div class="trending-product-card-description flex align-center">
+                            <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
+                            <div class="trending-product-card-pricing card-sub-heading">$26.00 <span
+                                    class="card-sub-heading">$42.00</span></div>
+                        </div>
+                    </div>
+                    <div class="trending-product-card">
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                                alt="" /></div>
+                        <div class="trending-product-card-description flex align-center">
+                            <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
+                            <div class="trending-product-card-pricing card-sub-heading">$26.00 <span
+                                    class="card-sub-heading">$42.00</span></div>
+                        </div>
+                    </div>
+                    <div class="trending-product-card">
+                        <div class="trending-product-card-img flex align-center"><img src="assets/image 1171.png"
+                                alt="" /></div>
+                        <div class="trending-product-card-description flex align-center">
+                            <div class="card-sub-heading  trending-product-card-heading">Cantilever chair</div>
+                            <div class="trending-product-card-pricing card-sub-heading">$26.00 <span
+                                    class="card-sub-heading">$42.00</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-product-discount-wrapper">
+                    <div class="trending-discount-card">
+                        <div class="sub-headings trending-discount-heading">
+                            <h2>23% off in all products</h2>
+                            <div class="trending-discount-body flex">
+                                <div class="sub-headings trending-discount-card-shop-now">Shop Now</div>
+                                <div class="trending-discount-card-image"><img src="assets/clock.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trending-discount-card">
+                        <div class="sub-headings trending-discount-heading">
+                            <h2>23% off in all products</h2>
+                            <div class="trending-discount-body flex">
+                                <div class="sub-headings trending-discount-card-shop-now">Shop Now</div>
+                                <div class="trending-discount-card-image"><img src="assets/clock.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trending-product-sub-cards flex">
+                        <div class="sub-card flex">
+                            <div class="sub-card-img flex align-center"><img src="assets/image 30.png"
+                                    alt="product-image" /></div>
+                            <div class="sub-card-description">
+                                <div class="discount-sub-card-heading card-sub-heading">Executive Seat chair</div>
+                                <div class="card-sub-heading discount-sub-card-pricing">$32.00</div>
+                            </div>
+                        </div>
+                        <div class="sub-card flex">
+                            <div class="sub-card-img flex align-center"><img src="assets/image 30.png"
+                                    alt="product-image" /></div>
+                            <div class="sub-card-description">
+                                <div class="discount-sub-card-heading card-sub-heading">Executive Seat chair</div>
+                                <div class="card-sub-heading discount-sub-card-pricing">$32.00</div>
+                            </div>
+                        </div>
+                        <div class="sub-card flex">
+                            <div class="sub-card-img flex align-center"><img src="assets/image 30.png"
+                                    alt="product-image" /></div>
+                            <div class="sub-card-description">
+                                <div class="discount-sub-card-heading card-sub-heading">Executive Seat chair</div>
+                                <div class="card-sub-heading discount-sub-card-pricing">$32.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- discount-items-section -->
+        <section class="main-container">
+            <div class="section-heading">
+                <h2>Discount Item</h2>
+            </div>
+            <div class="latest-btn-wrapper discount-item-btns flex">
+                <button class="latest-btn-active">Wood Chair</button>
+                <button>Plastic Chair</button>
+                <button>Sofa Collection</button>
+            </div>
+            <div class="discount-item-wrapper">
+                <div class="discount-item-left-section flex">
+                    <div class="section-heading unique-section-heading">
+                        <h2>20% Discount Of All Products</h2>
+                    </div>
+                    <div class="discount-item-highlight">Eams Sofa Compact</div>
+                    <p class="discount-item-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
+                        feugiat habitasse nec, bibendum condimentum.
+                    </p>
+                    <div class="discount-item-para-points">
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                        <p class="discount-item-para"><span><img src="assets/tick.svg" alt=""></span>Material expose
+                            like metals</p>
+                    </div>
+                    <button class="shop-now">Shop Now</button>
+
+                </div>
+                <div class="discount-item-right-section">
+                    <div class="discount-item-img"><img src="assets/Group 154.png" alt="product-image" /></div>
+                </div>
+            </div>
+        </section>
+        <!-- Top Categories  -->
+        <section class="main-container">
+            <div class="section-heading">
+                <h2>Top Categories</h2>
+            </div>
+            <!-- Additional required wrapper -->
+
+            <div class="categoryswiper">
+
+                <div class="swiper-wrapper">
+                    <div class="category-card flex align-center swiper-slide    ">
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-description flex align-center">
+                            <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
+                            <div class="card-sub-heading category-card-price">$56.00</div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide    ">
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-description flex align-center">
+                            <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
+                            <div class="card-sub-heading category-card-price">$56.00</div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide    ">
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-description flex align-center">
+                            <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
+                            <div class="card-sub-heading category-card-price">$56.00</div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide    ">
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-description flex align-center">
+                            <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
+                            <div class="card-sub-heading category-card-price">$56.00</div>
+                        </div>
+                    </div>
+
+                    <div class="category-card flex align-center swiper-slide    ">
+                        <div class="category-card-img"><img src="assets/image 20.png" alt="product-image" /></div>
+                        <div class="category-card-description flex align-center">
+                            <div class="card-sub-heading category-card-heading">Mini LCW Chair</div>
+                            <div class="card-sub-heading category-card-price">$56.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="categoryswiper-pagination"></div>
+
+            </div>
+
+        </section>
+        <!-- newsletter section  -->
+        <section class="newsletter-section">
+            <div class="main-container">
+                <div class="newletter-body flex align-center">
+                    <div class="section-heading unique-section-heading">
+                        <h2>Get Leatest Update By Subscribe
+                            0ur Newslater</h2>
+
+                    </div>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- brand-icons-section  -->
+        <section class="main-container">
+            <div class="brand-icons-section flex">
+                <img src="assets/image 1174.svg" alt="brand-icons" />
+            </div>
+        </section>
+        <!-- Leatest Blog  -->
+        <section class="main-container">
+            <div class="section-heading">
+                <h2>Leatest Blog</h2>
+            </div>
+            <div class="blog-cards-wrapper flex">
+                <div class="blog-card">
+                    <div class="blog-card-img"><img src="assets/JIUjvqe2ZHg.png" alt="image" /></div>
+                    <div class="blog-card-body">
+                        <div class="flex blog-card-top">
+                            <div class="card-sub-heading "><span><img src="assets/pen.svg"
+                                        alt="pen-icon" /></span>SaberAli</div>
+                            <div class="card-sub-heading "><span><img src="assets/calender.svg"
+                                        alt="calender-icon" /></span>SaberAli</div>
+                        </div>
+                        <div class=" card-sub-heading blog-card-heading">Top esssential Trends in 2021</div>
+                        <p class="blog-card-para">More off this less hello samlande lied much
+                            over tightly circa horse taped mightly</p>
+                        <a href="" class="blog-card-para blog-read-more">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-card-img"><img src="assets/JIUjvqe2ZHg.png" alt="image" /></div>
+                    <div class="blog-card-body">
+                        <div class="flex blog-card-top">
+                            <div class="card-sub-heading "><span><img src="assets/pen.svg"
+                                        alt="pen-icon" /></span>SaberAli</div>
+                            <div class="card-sub-heading "><span><img src="assets/calender.svg"
+                                        alt="calender-icon" /></span>SaberAli</div>
+                        </div>
+                        <div class=" card-sub-heading blog-card-heading">Top esssential Trends in 2021</div>
+                        <p class="blog-card-para">More off this less hello samlande lied much
+                            over tightly circa horse taped mightly</p>
+                        <a href="" class="blog-card-para blog-read-more">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-card-img"><img src="assets/JIUjvqe2ZHg.png" alt="image" /></div>
+                    <div class="blog-card-body">
+                        <div class="flex blog-card-top">
+                            <div class="card-sub-heading "><span><img src="assets/pen.svg"
+                                        alt="pen-icon" /></span>SaberAli</div>
+                            <div class="card-sub-heading "><span><img src="assets/calender.svg"
+                                        alt="calender-icon" /></span>SaberAli</div>
+                        </div>
+                        <div class=" card-sub-heading blog-card-heading">Top esssential Trends in 2021</div>
+                        <p class="blog-card-para">More off this less hello samlande lied much
+                            over tightly circa horse taped mightly</p>
+                        <a href="" class="blog-card-para blog-read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-section">
+            <div class="footer-wrapper main-container flex">
+                <div class="footer-left-container">
+                    <div class=" logo footer-logo">Hekto</div>
+                    <div class="footer-input flex align-center">
+                        <input type="text" placeholder="Enter Email Address"><button class="footer-sign-up-btn">Sign
+                            Up</button>
+                    </div>
+                    <div class="footer-contact">Contact Info</div>
+                    <div class="footer-contact">17 Princess Road, London, Greater London NW1 8JR, UK</div>
+                </div>
+                <div class="footer-right-container">
+                    <div class="footer-items">
+                        <div class="sub-headings footer-headings">Catagories</div>
+                        <ul class="flex">
+                            <li><a href="">Laptops & Computers</a></li>
+                            <li><a href="">Cameras & Photography</a></li>
+                            <li><a href="">Smart Phones & Tablets</a></li>
+                            <li><a href="">Video Games & Consoles</a></li>
+                            <li><a href="">Waterproof Headphones</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-items">
+                        <div class="sub-headings footer-headings">Customer Care</div>
+                        <ul class="flex">
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">Discount</a></li>
+                            <li><a href="">Returns</a></li>
+                            <li><a href="">Orders History</a></li>
+                            <li><a href="">Order Tracking</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-items">
+                        <div class="sub-headings footer-headings">Pages</div>
+                        <ul class="flex">
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Browse the Shop</a></li>
+                            <li><a href="">Category</a></li>
+                            <li><a href="">Pre-Built Pages</a></li>
+                            <li><a href="">Visual Composer Elements</a></li>
+                            <li><a href="">WooCommerce Pages</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-bar">
+            <div class="footer-bottom-container flex main-container">
+                <div class="copyright">©Webecy - All Rights Reserved</div>
+                <div class="footer-icons flex">
+                    <span class="flex align-center"><img src="assets/bx_bxl-facebook.svg" alt="facebook-icon"/></span>
+                    <span class="flex align-center"><img src="assets/bx_bxl-instagram-alt.svg" alt="instagram-icon"/></span>
+                    <span class="flex align-center"><img src="assets/akar-icons_twitter-fill.svg" alt="twitter-icon"/></span>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
     <script type="module">
-    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs'
-    const swiper = new Swiper('.swiper', {
-        direction: 'horizontal',
-        loop: true,
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs'
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
 
-        // 1. Default settings (Mobile-first fallback)
-        slidesPerView: 1,       // Shows 1 slide on small screens
-        spaceBetween: 20,       // Adds 20px gap between slides
+            // 1. Default settings (Mobile-first fallback)
+            slidesPerView: 1,       // Shows 1 slide on small screens
+            spaceBetween: 20,       // Adds 20px gap between slides
 
-        // 2. Responsive breakpoints
-        breakpoints: {
-            // When window width is >= 576px (Tablets)
-            576: {
-                slidesPerView: 3,
-                spaceBetween: 25, // Slightly larger gap
+            // 2. Responsive breakpoints
+            breakpoints: {
+                // When window width is >= 576px (Tablets)
+                576: {
+                    slidesPerView: 3,
+                    spaceBetween: 25, // Slightly larger gap
+                },
+                // When window width is >= 992px (Desktops)
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 30, // 30px gap for desktop
+                },
+                // When window width is >= 1200px (Large screens)
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                }
             },
-            // When window width is >= 992px (Desktops)
-            992: {
-                slidesPerView: 4,
-                spaceBetween: 30, // 30px gap for desktop
+
+            pagination: {
+                el: '.swiper-pagination',
             },
-            // When window width is >= 1200px (Large screens)
-            1200: {
-                slidesPerView: 4,
-                spaceBetween: 30,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+        const categoryswiper = new Swiper('.categoryswiper', {
+            direction: 'horizontal',
+            loop: true,
+
+            // 1. Default settings (Mobile-first fallback)
+            slidesPerView: 1,       // Shows 1 slide on small screens
+            spaceBetween: 20,       // Adds 20px gap between slides
+
+            // 2. Responsive breakpoints
+            breakpoints: {
+                // When window width is >= 576px (Tablets)
+                576: {
+                    slidesPerView: 3,
+                    spaceBetween: 25, // Slightly larger gap
+                },
+                // When window width is >= 992px (Desktops)
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 30, // 30px gap for desktop
+                },
+                // When window width is >= 1200px (Large screens)
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                }
+            },
+
+            pagination: {
+                el: '.categoryswiper-pagination',
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             }
-        },
-
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
-    });
-</script>
+        });
+    </script>
 </body>
 
 </html>
