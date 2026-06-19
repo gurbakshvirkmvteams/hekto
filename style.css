@@ -5,6 +5,7 @@
 }
 
 html {
+    scroll-padding-top: 40px; 
     scroll-behavior: smooth;
 }
 
@@ -31,8 +32,17 @@ a {
     display: flex;
 }
 
-.sub-headings h4,
+.login-btn h4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .align-center {
+    align-items: center;
+}
+
+.sub-headings h4 .align-center {
     align-items: center;
 }
 
@@ -104,11 +114,17 @@ select option {
     width: 18px;
     padding-right: 10px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.nav-icon img {
+    display: block;
 }
 
 .wishlist {
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .navbar {
@@ -331,6 +347,8 @@ button:active {
 
 .heroswiper {
     overflow: hidden;
+    position: relative;
+
 }
 
 .hero-section .swiper-wrapper {
@@ -339,7 +357,9 @@ button:active {
 
 .heroswiper-pagination {
     text-align: center;
-    padding-bottom: 50px;
+    position: absolute;
+    bottom: 20%;
+    z-index: 5;
 }
 
 .heroswiper-pagination .swiper-pagination-bullet {
@@ -1108,7 +1128,7 @@ button:active {
 
 .blog-cards-wrapper {
     padding: 80px 0 115px 0;
-    gap: 29px;
+    gap: 56px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -1520,6 +1540,7 @@ button:active {
 
     .latest-btn-wrapper {
         column-gap: 8px;
+        row-gap: 26px;
     }
 
     .latest-btn-wrapper button {
