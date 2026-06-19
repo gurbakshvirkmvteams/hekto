@@ -14,7 +14,6 @@
         rel="stylesheet" />
     <!-- swiper cdn  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -43,7 +42,9 @@
                             <option value="">Dutch</option>
                             <option value="">Chineese</option>
                         </select>
-                        <button class="login-btn"><h4 class="sub-headings" >Login</h4></button>
+                        <button class="login-btn">
+                            <h4 class="sub-headings">Login</h4>
+                        </button>
                         <h4 class="sub-headings flex align-center">Wishlist <span
                                 class="nav-icon flex align-center wishlist"><img src="assets/uil_heart-alt.svg"
                                     alt="heart" /></span>
@@ -91,17 +92,20 @@
                     </svg>
                 </div>
             </div>
-            <div class="nav-sidebar flex" id="navSidebar">
-                <ul class="flex">
-                    <li class="sidebar-btn"><a href="index.html">Home<span></a></li>
-                    <li class="sidebar-btn"><a href="index.html#trending">Trending<span></span></a></li>
-                    <li class="sidebar-btn"><a href="index.html#latest-products">Products<span></span></a></li>
-                    <li class="sidebar-btn"><a href="index.html#blog">Blog<span></span></a></li>
-                    <li class="sidebar-btn"><a href="index.html#categories">Shop<span></span></a></li>
-                    <li class="sidebar-btn"><a href="index.html#footer">Contact<span></span></a></li>
-                </ul>
-                <div class="cross-icon" id="crossIcon">
-                    <button><img src="assets/cross-svgrepo-com (1).svg" alt="cross-icon" /></button>
+            <div class="nav-sidebar-overlay" id="navSidebar">
+                <div class="nav-sidebar-overlay-background"></div>
+                <div class="nav-sidebar flex">
+                    <ul class="flex">
+                        <li class="sidebar-btn"><a href="index.html">Home<span></a></li>
+                        <li class="sidebar-btn"><a href="index.html#trending">Trending<span></span></a></li>
+                        <li class="sidebar-btn"><a href="index.html#latest-products">Products<span></span></a></li>
+                        <li class="sidebar-btn"><a href="index.html#blog">Blog<span></span></a></li>
+                        <li class="sidebar-btn"><a href="index.html#categories">Shop<span></span></a></li>
+                        <li class="sidebar-btn"><a href="index.html#footer">Contact<span></span></a></li>
+                    </ul>
+                    <div class="cross-icon" id="crossIcon">
+                        <button><img src="assets/cross-svgrepo-com (1).svg" alt="cross-icon" /></button>
+                    </div>
                 </div>
             </div>
             <div class="login-overlay">
@@ -1106,111 +1110,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs'
-        const swiper = new Swiper('.swiper', {
-            direction: 'horizontal',
-            loop: true,
-
-            // 1. Default settings (Mobile-first fallback)
-            slidesPerView: 1,       // Shows 1 slide on small screens
-            spaceBetween: 20,       // Adds 20px gap between slides
-
-            // 2. Responsive breakpoints
-            breakpoints: {
-                // When window width is >= 576px (Tablets)
-                576: {
-                    slidesPerView: 3,
-                    spaceBetween: 25, // Slightly larger gap
-                },
-                // When window width is >= 992px (Desktops)
-                992: {
-                    slidesPerView: 4,
-                    spaceBetween: 30, // 30px gap for desktop
-                },
-                // When window width is >= 1200px (Large screens)
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                }
-            },
-
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            scrollbar: {
-                el: '.swiper-scrollbar',
-
-            },
-        });
-        const categoryswiper = new Swiper('.categoryswiper', {
-            direction: 'horizontal',
-            loop: true,
-
-            // 1. Default settings (Mobile-first fallback)
-            slidesPerView: 1,       // Shows 1 slide on small screens
-            spaceBetween: 20,       // Adds 20px gap between slides
-
-            // 2. Responsive breakpoints
-            breakpoints: {
-                // When window width is >= 576px (Tablets)
-                576: {
-                    slidesPerView: 3,
-                    spaceBetween: 25, // Slightly larger gap
-                },
-                // When window width is >= 992px (Desktops)
-                992: {
-                    slidesPerView: 4,
-                    spaceBetween: 30, // 30px gap for desktop
-                },
-                // When window width is >= 1200px (Large screens)
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                }
-            },
-
-            pagination: {
-                el: '.categoryswiper-pagination',
-                clickable: true,
-            },
-
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            }
-        });
-        const heroswiper = new Swiper('.heroswiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.heroswiper-pagination',
-                clickable: true,
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        });
-    </script>
 </body>
 
 </html>

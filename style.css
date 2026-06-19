@@ -103,6 +103,8 @@ select option {
     height: 18px;
     width: 18px;
     padding-right: 10px;
+    cursor: pointer;
+
 }
 
 .wishlist {
@@ -165,16 +167,33 @@ select option {
     place-items: center;
 }
 
+.nav-sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.2s linear;
+    z-index: 22;
+}
+
+.nav-sidebar-overlay-background {
+    background-color: rgba(0, 0, 0, 0.800);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 21;
+}
+
 .nav-sidebar {
     background-color: white;
     position: fixed;
-    height: 100%;
-    top: 0;
-    right: -350px;
+    right: -320px;
     width: 320px;
+    height: 100%;
+    z-index: 22;
     justify-content: space-between;
     transition: all 0.2s linear;
-    z-index: 20;
 }
 
 .nav-sidebar ul {
@@ -190,8 +209,19 @@ select option {
     cursor: pointer;
 }
 
-.sidebar-active {
+.sidebar-active .nav-sidebar {
     right: 0;
+}
+
+.nav-sidebar-overlay.sidebar-active {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.sidebar-active {
+    width: 100%;
     position: fixed;
 }
 
@@ -278,7 +308,8 @@ select option {
     text-align: center;
     border-radius: 20px;
 }
-button:active{
+
+button:active {
     transform: scale(0.99);
 }
 
@@ -1622,27 +1653,31 @@ button:active{
     position: fixed;
     overflow: hidden;
 }
- .featured-tab .latest-product-card{
+
+.featured-tab .latest-product-card {
     transform: scaleX(0.10);
 }
- .featured-tab.active .latest-product-card{
+
+.featured-tab.active .latest-product-card {
     transform: scaleX(1);
     transition: all 0.5s ease;
 }
-.discount-item-wrapper{
-transform: translateY(50px);
-}
-.discount-item-wrapper.active{
-transform: translateY(0px);
-    transition: all 0.5s ease;
 
+.discount-item-wrapper {
+    transform: translateY(50px);
 }
+
+.discount-item-wrapper.active {
+    transform: translateY(0px);
+    transition: all 0.5s ease;
+}
+
 .active {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     position: static;
-    height: auto;   
+    height: auto;
 }
 
 .login-overlay {
