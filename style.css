@@ -159,7 +159,8 @@ select option {
     right: 0px;
     background-color: #FB2E86;
     height: 100%;
-    width: 50px;
+    max-width: 50px;
+    width: 100%;
     display: grid;
     place-items: center;
 }
@@ -1621,12 +1622,20 @@ button:active{
     position: fixed;
     overflow: hidden;
 }
-.discount-item-wrapper, .featured-tab .latest-product-card{
+ .featured-tab .latest-product-card{
     transform: scaleX(0.10);
 }
-.discount-item-wrapper.active, .featured-tab.active .latest-product-card{
+ .featured-tab.active .latest-product-card{
     transform: scaleX(1);
     transition: all 0.5s ease;
+}
+.discount-item-wrapper{
+transform: translateY(50px);
+}
+.discount-item-wrapper.active{
+transform: translateY(0px);
+    transition: all 0.5s ease;
+
 }
 .active {
     opacity: 1;
